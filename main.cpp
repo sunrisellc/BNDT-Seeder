@@ -20,8 +20,8 @@ using namespace libconfig;
 
 bool fDumpAll = false;
 bool bCurrentBlockFromExplorer = false;
-string sAppName = "generic-seeder";
-string sAppVersion = "1.1.0";
+string sAppName = "ɃanditoSeeder";
+string sAppVersion = "1.0.0";
 string sForceIP;
 string sCurrentBlock;
 int nCurrentBlock = -1;
@@ -58,7 +58,7 @@ public:
   CDnsSeedOpts() : nThreads(96), nDnsThreads(4), ip_addr("::"), nPort(53), mbox(NULL), ns(NULL), host(NULL), tor(NULL), fWipeBan(false), fWipeIgnore(false), fDumpAll(false), ipv4_proxy(NULL), ipv6_proxy(NULL), force_ip("a") {}
 
   void ParseCommandLine(int argc, char **argv) {
-    static const char *help = "generic-seeder\n"
+    static const char *help = "ɃanditoSeeder\n"
                               "Usage: %s -h <host> -n <ns> [-m <mbox>] [-t <threads>] [-p <port>]\n"
                               "\n"
                               "Options:\n"
